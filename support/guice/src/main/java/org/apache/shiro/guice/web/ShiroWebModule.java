@@ -23,12 +23,12 @@ import java.util.*;
 import javax.servlet.Filter;
 import javax.servlet.ServletContext;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.env.Environment;
 import org.apache.shiro.guice.ShiroModule;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.session.mgt.SessionManager;
-import org.apache.shiro.lang.util.StringUtils;
 import org.apache.shiro.web.env.WebEnvironment;
 import org.apache.shiro.web.filter.InvalidRequestFilter;
 import org.apache.shiro.web.filter.PathMatchingFilter;

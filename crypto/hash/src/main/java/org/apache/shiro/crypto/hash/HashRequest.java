@@ -18,8 +18,8 @@
  */
 package org.apache.shiro.crypto.hash;
 
-import org.apache.shiro.lang.util.ByteSource;
-import org.apache.shiro.lang.util.SimpleByteSource;
+import org.apache.shiro.api.lang.util.ByteSource;
+import org.apache.shiro.api.lang.util.SimpleByteSource;
 
 import java.util.Map;
 import java.util.Optional;

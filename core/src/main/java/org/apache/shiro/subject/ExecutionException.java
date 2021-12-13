@@ -18,8 +18,6 @@
  */
 package org.apache.shiro.subject;
 
-import org.apache.shiro.lang.ShiroException;
-
 /**
  * Exception wrapping any potential checked exception thrown when a {@code Subject} executes a
  * {@link java.util.concurrent.Callable}.  This is a nicer alternative than forcing calling code to catch
@@ -29,7 +27,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.0
  */
-public class ExecutionException extends ShiroException {
+public class ExecutionException extends RuntimeException {
 
     public ExecutionException(Throwable cause) {
         super(cause);

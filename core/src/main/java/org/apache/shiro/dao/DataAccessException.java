@@ -18,8 +18,6 @@
  */
 package org.apache.shiro.dao;
 
-import org.apache.shiro.lang.ShiroException;
-
 /**
  * Generic exception representing a problem when attempting to access data.
  * <p/>
@@ -28,7 +26,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.2
  */
-public abstract class DataAccessException extends ShiroException {
+public abstract class DataAccessException extends RuntimeException {
 
     /**
      * Constructs a DataAccessException with a message explaining the cause of the exception.

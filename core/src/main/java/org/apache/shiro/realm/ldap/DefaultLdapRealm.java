@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -28,7 +29,6 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.ldap.UnsupportedAuthenticationMechanismException;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.apache.shiro.lang.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -18,8 +18,6 @@
  */
 package org.apache.shiro.authz.permission;
 
-import org.apache.shiro.lang.ShiroException;
-
 
 /**
  * Thrown by {@link PermissionResolver#resolvePermission(String)} when the String being parsed is not
@@ -27,8 +25,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 0.9
  */
-public class InvalidPermissionStringException extends ShiroException
-{
+public class InvalidPermissionStringException extends RuntimeException {
 
     private String permissionString;
 

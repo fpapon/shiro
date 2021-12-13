@@ -18,8 +18,8 @@
  */
 package org.apache.shiro.crypto.hash;
 
-import org.apache.shiro.lang.codec.Base64;
-import org.apache.shiro.lang.codec.Hex;
+import org.apache.shiro.api.lang.codec.Base64;
+import org.apache.shiro.api.lang.codec.Hex;
 
 
 /**

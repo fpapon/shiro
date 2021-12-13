@@ -18,16 +18,16 @@
  */
 package org.apache.shiro.authc.credential;
 
+import org.apache.shiro.api.lang.codec.Base64;
+import org.apache.shiro.api.lang.codec.Hex;
+import org.apache.shiro.api.lang.util.SimpleByteSource;
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SaltedAuthenticationInfo;
 import org.apache.shiro.crypto.hash.AbstractHash;
 import org.apache.shiro.crypto.hash.Hash;
 import org.apache.shiro.crypto.hash.SimpleHash;
-import org.apache.shiro.lang.codec.Base64;
-import org.apache.shiro.lang.codec.Hex;
-import org.apache.shiro.lang.util.SimpleByteSource;
-import org.apache.shiro.lang.util.StringUtils;
 
 import static java.util.Objects.requireNonNull;
 

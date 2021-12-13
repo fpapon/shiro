@@ -18,7 +18,8 @@
  */
 package org.apache.shiro.crypto;
 
-import org.apache.shiro.lang.ShiroException;
+
+import org.apache.shiro.api.lang.ShiroException;
 
 /**
  * Base Shiro exception for problems encountered during cryptographic operations.

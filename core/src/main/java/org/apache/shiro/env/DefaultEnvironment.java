@@ -18,8 +18,8 @@
  */
 package org.apache.shiro.env;
 
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.mgt.SecurityManager;
-import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.LifecycleUtils;
 
 import java.util.Map;

@@ -18,7 +18,7 @@
  */
 package org.apache.shiro.web.filter.mgt;
 
-import org.apache.shiro.lang.util.ClassUtils;
+import org.apache.shiro.api.lang.util.ClassUtils;
 import org.apache.shiro.web.filter.InvalidRequestFilter;
 import org.apache.shiro.web.filter.authc.*;
 import org.apache.shiro.web.filter.authz.*;

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import org.apache.shiro.api.lang.util.ByteSource;
 import org.apache.shiro.crypto.hash.DefaultHashService;
 import org.apache.shiro.crypto.hash.Hash;
 import org.apache.shiro.crypto.hash.HashRequest;
@@ -27,7 +28,6 @@ import org.apache.shiro.crypto.hash.format.HashFormat;
 import org.apache.shiro.crypto.hash.format.HashFormatFactory;
 import org.apache.shiro.crypto.hash.format.ParsableHashFormat;
 import org.apache.shiro.crypto.hash.format.Shiro2CryptFormat;
-import org.apache.shiro.lang.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

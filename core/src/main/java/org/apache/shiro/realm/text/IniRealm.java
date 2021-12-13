@@ -18,9 +18,9 @@
  */
 package org.apache.shiro.realm.text;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.util.CollectionUtils;
-import org.apache.shiro.lang.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

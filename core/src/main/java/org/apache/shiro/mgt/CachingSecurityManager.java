@@ -18,12 +18,12 @@
  */
 package org.apache.shiro.mgt;
 
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.CacheManagerAware;
 import org.apache.shiro.event.EventBus;
 import org.apache.shiro.event.EventBusAware;
 import org.apache.shiro.event.support.DefaultEventBus;
-import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.LifecycleUtils;
 
 

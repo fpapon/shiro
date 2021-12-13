@@ -18,15 +18,13 @@
  */
 package org.apache.shiro;
 
-import org.apache.shiro.lang.ShiroException;
-
 /**
  * Exception thrown when attempting to acquire the application's {@code SecurityManager} instance, but Shiro's
  * lookup heuristics cannot find one.  This typically indicates an invalid application configuration.
  *
  * @since 1.0
  */
-public class UnavailableSecurityManagerException extends ShiroException {
+public class UnavailableSecurityManagerException extends RuntimeException {
 
     public UnavailableSecurityManagerException(String message) {
         super(message);

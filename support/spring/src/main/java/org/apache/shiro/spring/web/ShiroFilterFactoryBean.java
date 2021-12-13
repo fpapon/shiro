@@ -18,11 +18,11 @@
  */
 package org.apache.shiro.spring.web;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.util.CollectionUtils;
 import org.apache.shiro.lang.util.Nameable;
-import org.apache.shiro.lang.util.StringUtils;
 import org.apache.shiro.web.config.IniFilterChainResolverFactory;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.apache.shiro.web.filter.InvalidRequestFilter;

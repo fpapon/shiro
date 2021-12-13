@@ -32,7 +32,7 @@ import javax.servlet.ServletResponse;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static org.apache.shiro.lang.util.StringUtils.split;
+import static org.apache.shiro.api.lang.util.StringUtils.split;
 
 /**
  * <p>Base class for Filters that will process only specified paths and allow all others to pass through.</p>

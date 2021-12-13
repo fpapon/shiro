@@ -18,16 +18,13 @@
  */
 package org.apache.shiro.authz;
 
-import org.apache.shiro.lang.ShiroException;
-
 
 /**
  * Exception thrown if there is a problem during authorization (access control check).
  *
  * @since 0.1
  */
-public class AuthorizationException extends ShiroException
-{
+public class AuthorizationException extends RuntimeException {
 
     /**
      * Creates a new AuthorizationException.

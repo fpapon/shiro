@@ -18,8 +18,8 @@
  */
 package org.apache.shiro.subject;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.util.CollectionUtils;
-import org.apache.shiro.lang.util.StringUtils;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

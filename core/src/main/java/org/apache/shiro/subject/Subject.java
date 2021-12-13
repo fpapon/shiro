@@ -19,6 +19,7 @@
 package org.apache.shiro.subject;
 
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authz.AuthorizationException;
@@ -27,7 +28,6 @@ import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.mgt.SubjectFactory;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.support.DefaultSubjectContext;
-import org.apache.shiro.lang.util.StringUtils;
 
 import java.io.Serializable;
 import java.util.Collection;

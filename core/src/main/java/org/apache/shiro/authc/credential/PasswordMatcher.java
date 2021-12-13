@@ -18,10 +18,10 @@
  */
 package org.apache.shiro.authc.credential;
 
+import org.apache.shiro.api.lang.util.ByteSource;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.crypto.hash.Hash;
-import org.apache.shiro.lang.util.ByteSource;
 
 /**
  * A {@link CredentialsMatcher} that employs best-practices comparisons for hashed text passwords.

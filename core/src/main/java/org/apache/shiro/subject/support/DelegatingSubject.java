@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject.support;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.HostAuthenticationToken;
@@ -35,7 +36,6 @@ import org.apache.shiro.subject.ExecutionException;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.CollectionUtils;
-import org.apache.shiro.lang.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

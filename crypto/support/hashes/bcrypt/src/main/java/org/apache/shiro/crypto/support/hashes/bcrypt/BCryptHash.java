@@ -20,8 +20,8 @@
 package org.apache.shiro.crypto.support.hashes.bcrypt;
 
 import org.apache.shiro.crypto.hash.AbstractCryptHash;
-import org.apache.shiro.lang.util.ByteSource;
-import org.apache.shiro.lang.util.SimpleByteSource;
+import org.apache.shiro.api.lang.util.ByteSource;
+import org.apache.shiro.api.lang.util.SimpleByteSource;
 import org.bouncycastle.crypto.generators.OpenBSDBCrypt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

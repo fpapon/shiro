@@ -19,9 +19,9 @@
 package org.apache.shiro.crypto.cipher
 
 
-import org.apache.shiro.lang.codec.CodecSupport
-import org.apache.shiro.lang.util.ByteSource
-import org.apache.shiro.util.ByteUtils
+import org.apache.shiro.api.lang.codec.CodecSupport
+import org.apache.shiro.api.lang.util.ByteSource
+import org.apache.shiro.api.util.ByteUtils
 import org.junit.Test
 
 import static org.junit.Assert.assertTrue

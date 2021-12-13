@@ -19,7 +19,7 @@
 package org.apache.shiro.crypto.cipher;
 
 import org.apache.shiro.crypto.CryptoException;
-import org.apache.shiro.lang.util.ByteSource;
+import org.apache.shiro.api.lang.util.ByteSource;
 
 import java.io.InputStream;
 import java.io.OutputStream;

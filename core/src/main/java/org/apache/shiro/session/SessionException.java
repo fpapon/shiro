@@ -18,8 +18,6 @@
  */
 package org.apache.shiro.session;
 
-import org.apache.shiro.lang.ShiroException;
-
 
 /**
  * General security exception attributed to problems during interaction with the system during
@@ -27,7 +25,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 0.1
  */
-public class SessionException extends ShiroException {
+public class SessionException extends RuntimeException {
 
     /**
      * Creates a new SessionException.

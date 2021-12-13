@@ -19,11 +19,11 @@
 package org.apache.shiro.realm.jdbc;
 
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.api.lang.codec.Base64;
+import org.apache.shiro.api.lang.codec.CodecSupport;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.lang.codec.Base64;
-import org.apache.shiro.lang.codec.CodecSupport;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.ini.IniSecurityManagerFactory;
 import org.apache.shiro.crypto.hash.Sha256Hash;
@@ -358,7 +358,7 @@ public class JDBCRealmTest {
     /**
      * Creates a test database with a separate salt column in the users table. Sets the
      * DataSource of the realm associated with the test to a DataSource connected to the database.
-     * @param The name of the test which is used as the key when saving the created realm in the realmMap
+     * @param testName The name of the test which is used as the key when saving the created realm in the realmMap
      * @param base64EncodeSalt if true, the salt will be base64 encoded before it's stored in the database
      */
     protected void createSaltColumnSchema(String testName, boolean base64EncodeSalt) {

@@ -18,9 +18,9 @@
  */
 package org.apache.shiro.authc.credential;
 
+import org.apache.shiro.api.lang.codec.CodecSupport;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.lang.codec.CodecSupport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

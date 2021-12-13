@@ -18,13 +18,13 @@
  */
 package org.apache.shiro.realm.text;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.authc.SimpleAccount;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.authz.SimpleRole;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.realm.SimpleAccountRealm;
 import org.apache.shiro.util.PermissionUtils;
-import org.apache.shiro.lang.util.StringUtils;
 
 import java.text.ParseException;
 import java.util.Collection;

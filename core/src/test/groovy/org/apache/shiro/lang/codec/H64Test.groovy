@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.lang.codec
 
+import org.apache.shiro.api.lang.codec.H64
 import org.apache.shiro.crypto.SecureRandomNumberGenerator
 import org.junit.Test
 

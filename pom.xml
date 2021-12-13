@@ -132,11 +132,8 @@
     </properties>
 
     <modules>
-        <module>lang</module>
+        <module>api</module>
         <module>crypto</module>
-        <module>event</module>
-        <module>cache</module>
-        <module>config</module>
         <module>core</module>
         <module>web</module>
         <module>support</module>
@@ -731,27 +728,12 @@
             <!-- Shiro core artifacts -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-lang</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-cache</artifactId>
+                <artifactId>shiro-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-config-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-config-ogdl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -777,11 +759,6 @@
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-crypto-cipher</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-event</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -831,11 +808,6 @@
                 <artifactId>shiro-jaxrs</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-all</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
             <!-- Shiro samples: -->
             <dependency>
@@ -859,13 +831,6 @@
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-core</artifactId>
-                <version>${project.version}</version>
-                <type>test-jar</type>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-config-ogdl</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
                 <scope>test</scope>

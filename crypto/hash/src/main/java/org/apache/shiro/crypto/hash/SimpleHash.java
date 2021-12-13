@@ -19,12 +19,12 @@
 package org.apache.shiro.crypto.hash;
 
 import org.apache.shiro.crypto.UnknownAlgorithmException;
-import org.apache.shiro.lang.codec.Base64;
-import org.apache.shiro.lang.codec.CodecException;
-import org.apache.shiro.lang.codec.Hex;
-import org.apache.shiro.lang.util.ByteSource;
-import org.apache.shiro.lang.util.SimpleByteSource;
-import org.apache.shiro.lang.util.StringUtils;
+import org.apache.shiro.api.lang.codec.Base64;
+import org.apache.shiro.api.lang.codec.CodecException;
+import org.apache.shiro.api.lang.codec.Hex;
+import org.apache.shiro.api.lang.util.ByteSource;
+import org.apache.shiro.api.lang.util.SimpleByteSource;
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -116,7 +116,7 @@ public class SimpleHash extends AbstractHash {
      * @param algorithmName the {@link java.security.MessageDigest MessageDigest} algorithm name to use when
      *                      performing the hash.
      * @param source        the object to be hashed.
-     * @throws org.apache.shiro.lang.codec.CodecException
+     * @throws org.apache.shiro.api.lang.codec.CodecException
      *                                   if the specified {@code source} cannot be converted into a byte array (byte[]).
      * @throws UnknownAlgorithmException if the {@code algorithmName} is not available.
      */
@@ -175,8 +175,8 @@ public class SimpleHash extends AbstractHash {
      * <p/>
      * By default, this class only supports Object method arguments of
      * type {@code byte[]}, {@code char[]}, {@link String}, {@link java.io.File File},
-     * {@link java.io.InputStream InputStream} or {@link org.apache.shiro.lang.util.ByteSource ByteSource}.  If either
-     * argument is anything other than these types a {@link org.apache.shiro.lang.codec.CodecException CodecException}
+     * {@link java.io.InputStream InputStream} or {@link org.apache.shiro.api.lang.util.ByteSource ByteSource}.  If either
+     * argument is anything other than these types a {@link org.apache.shiro.api.lang.codec.CodecException CodecException}
      * will be thrown.
      * <p/>
      * If you want to be able to hash other object types, or use other salt types, you need to override the

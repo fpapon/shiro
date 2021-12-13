@@ -19,7 +19,7 @@
 
 package org.apache.shiro.crypto.support.hashes.bcrypt
 
-import org.apache.shiro.lang.util.SimpleByteSource
+import org.apache.shiro.api.lang.util.SimpleByteSource
 import org.junit.jupiter.api.Test
 
 import java.nio.charset.StandardCharsets

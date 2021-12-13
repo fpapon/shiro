@@ -57,26 +57,27 @@
                             org.apache.shiro.aop;version=${project.version},
                             org.apache.shiro.authc*;version=${project.version},
                             org.apache.shiro.authz*;version=${project.version},
+                            org.apache.shiro.cache*;version=${project.version},
                             org.apache.shiro.concurrent;version=${project.version},
+                            org.apache.shiro.config*;version=${project.version},
                             org.apache.shiro.dao;version=${project.version},
                             org.apache.shiro.env;version=${project.version},
+                            org.apache.shiro.event*;version=${project.version},
                             org.apache.shiro.ini;version=${project.version},
                             org.apache.shiro.jndi;version=${project.version},
+                            org.apache.shiro.lang*;version=${project.version},
                             org.apache.shiro.ldap;version=${project.version},
                             org.apache.shiro.mgt;version=${project.version},
                             org.apache.shiro.realm*;version=${project.version},
                             org.apache.shiro.session*;version=${project.version},
                             org.apache.shiro.subject*;version=${project.version},
-                            org.apache.shiro.util;version=${project.version},
+                            org.apache.shiro.util;version=${project.version}
                         </Export-Package>
                         <Import-Package>
-                            org.apache.shiro.lang*;version="${shiro.osgi.importRange}",
-                            org.apache.shiro.cache*;version="${shiro.osgi.importRange}",
-                            org.apache.shiro.config*;version="${shiro.osgi.importRange}",
                             org.apache.shiro.crypto*;version="${shiro.osgi.importRange}",
-                            org.apache.shiro.event*;version="${shiro.osgi.importRange}",
                             org.apache.commons.beanutils*;resolution:=optional,
                             org.apache.commons.configuration2*;resolution:=optional,
+                            javax.servlet.jsp*;resolution:=optional,
                             *
                         </Import-Package>
                         <DynamicImport-Package>
@@ -93,11 +94,7 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-lang</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-cache</artifactId>
+            <artifactId>shiro-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -117,20 +114,23 @@
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-crypto-cipher</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-config-core</artifactId>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-config-ogdl</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-event</artifactId>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-configuration2</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- Test dependencies -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>

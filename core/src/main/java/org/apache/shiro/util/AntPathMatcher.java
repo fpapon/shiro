@@ -18,7 +18,7 @@
  */
 package org.apache.shiro.util;
 
-import org.apache.shiro.lang.util.StringUtils;
+import org.apache.shiro.api.lang.util.StringUtils;
 
 /**
  * <p>PathMatcher implementation for Ant-style path patterns.

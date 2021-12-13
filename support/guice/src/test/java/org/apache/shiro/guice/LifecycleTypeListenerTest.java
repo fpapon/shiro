@@ -20,8 +20,8 @@ package org.apache.shiro.guice;
 
 import com.google.inject.TypeLiteral;
 import com.google.inject.spi.TypeEncounter;
-import org.apache.shiro.lang.ShiroException;
-import org.apache.shiro.lang.util.Destroyable;
+import org.apache.shiro.api.lang.ShiroException;
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.lang.util.Initializable;
 import org.junit.Test;
 

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.mgt;
 
+import org.apache.shiro.api.lang.util.ByteSource;
+import org.apache.shiro.api.util.ByteUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -27,11 +29,9 @@ import org.apache.shiro.crypto.cipher.AesCipherService;
 import org.apache.shiro.crypto.cipher.CipherService;
 import org.apache.shiro.lang.io.DefaultSerializer;
 import org.apache.shiro.lang.io.Serializer;
-import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.subject.SubjectContext;
-import org.apache.shiro.util.ByteUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

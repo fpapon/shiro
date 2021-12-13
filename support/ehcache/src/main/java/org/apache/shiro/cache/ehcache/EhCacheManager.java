@@ -18,11 +18,11 @@
  */
 package org.apache.shiro.cache.ehcache;
 
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheException;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.lang.io.ResourceUtils;
-import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.Initializable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

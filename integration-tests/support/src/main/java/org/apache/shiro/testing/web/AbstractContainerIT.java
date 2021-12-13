@@ -18,11 +18,10 @@
  */
 package org.apache.shiro.testing.web;
 
-import org.apache.shiro.lang.codec.Base64;
-
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.github.mjeanroy.junit.servers.jetty.EmbeddedJetty;
 import com.github.mjeanroy.junit.servers.jetty.EmbeddedJettyConfiguration;
+import org.apache.shiro.api.lang.codec.Base64;
 import org.eclipse.jetty.annotations.AnnotationConfiguration;
 import org.eclipse.jetty.http.HttpVersion;
 import org.eclipse.jetty.server.HttpConfiguration;

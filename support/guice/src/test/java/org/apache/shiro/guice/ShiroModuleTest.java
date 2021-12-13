@@ -24,6 +24,7 @@ import com.google.inject.Injector;
 import com.google.inject.Provides;
 import com.google.inject.binder.AnnotatedBindingBuilder;
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
@@ -37,7 +38,6 @@ import org.apache.shiro.realm.Realm;
 import org.apache.shiro.session.mgt.DefaultSessionManager;
 import org.apache.shiro.session.mgt.SessionManager;
 import org.apache.shiro.subject.Subject;
-import org.apache.shiro.lang.util.Destroyable;
 import org.junit.Test;
 
 import java.util.Collection;

@@ -18,12 +18,12 @@
  */
 package org.apache.shiro.web.subject.support;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.mgt.SessionContext;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.support.DelegatingSubject;
-import org.apache.shiro.lang.util.StringUtils;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionContext;
 import org.apache.shiro.web.session.mgt.WebSessionContext;
 import org.apache.shiro.web.subject.WebSubject;

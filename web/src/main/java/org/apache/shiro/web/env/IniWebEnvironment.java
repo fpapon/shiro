@@ -18,14 +18,14 @@
  */
 package org.apache.shiro.web.env;
 
+import org.apache.shiro.api.lang.util.Destroyable;
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.ini.IniFactorySupport;
 import org.apache.shiro.lang.io.ResourceUtils;
-import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.Factory;
 import org.apache.shiro.lang.util.Initializable;
-import org.apache.shiro.lang.util.StringUtils;
 import org.apache.shiro.util.CollectionUtils;
 import org.apache.shiro.web.config.IniFilterChainResolverFactory;
 import org.apache.shiro.web.config.WebIniSecurityManagerFactory;

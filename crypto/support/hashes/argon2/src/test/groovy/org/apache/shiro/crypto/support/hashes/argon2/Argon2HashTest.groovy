@@ -21,7 +21,7 @@ package org.apache.shiro.crypto.support.hashes.argon2
 
 import org.apache.shiro.crypto.hash.format.Shiro1CryptFormat
 import org.apache.shiro.crypto.hash.format.Shiro2CryptFormat
-import org.apache.shiro.lang.util.SimpleByteSource
+import org.apache.shiro.api.lang.util.SimpleByteSource
 import org.bouncycastle.crypto.params.Argon2Parameters
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.function.Executable

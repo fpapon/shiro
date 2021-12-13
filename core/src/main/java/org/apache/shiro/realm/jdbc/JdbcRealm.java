@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.realm.jdbc;
 
+import org.apache.shiro.api.lang.codec.Base64;
+import org.apache.shiro.api.lang.util.ByteSource;
 import org.apache.shiro.authc.AccountException;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -28,11 +30,9 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
-import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.util.JdbcUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

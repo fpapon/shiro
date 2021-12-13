@@ -18,8 +18,8 @@
  */
 package org.apache.shiro.web.env;
 
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.apache.shiro.config.ResourceConfigurable;
-import org.apache.shiro.lang.util.StringUtils;
 
 /**
  * Abstract implementation for {@code WebEnvironment}s that can be initialized via resource paths (config files).

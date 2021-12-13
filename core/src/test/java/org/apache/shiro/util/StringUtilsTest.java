@@ -20,7 +20,7 @@ package org.apache.shiro.util;
 
 import static org.junit.Assert.*;
 
-import org.apache.shiro.lang.util.StringUtils;
+import org.apache.shiro.api.lang.util.StringUtils;
 import org.junit.Test;
 
 

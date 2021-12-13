@@ -18,11 +18,11 @@
  */
 package org.apache.shiro.authc;
 
+import org.apache.shiro.api.lang.util.ByteSource;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.SimplePrincipalCollection;
-import org.apache.shiro.lang.util.ByteSource;
 
 import java.io.Serializable;
 import java.util.Collection;

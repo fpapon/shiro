@@ -18,10 +18,10 @@
  */
 package org.apache.shiro.spring;
 
+import org.apache.shiro.api.lang.util.ClassUtils;
 import org.apache.shiro.event.EventBus;
 import org.apache.shiro.event.EventBusAware;
 import org.apache.shiro.event.Subscribe;
-import org.apache.shiro.lang.util.ClassUtils;
 import org.apache.shiro.util.CollectionUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

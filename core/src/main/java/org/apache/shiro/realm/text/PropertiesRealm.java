@@ -18,9 +18,9 @@
  */
 package org.apache.shiro.realm.text;
 
-import org.apache.shiro.lang.ShiroException;
+import org.apache.shiro.api.lang.ShiroException;
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.lang.io.ResourceUtils;
-import org.apache.shiro.lang.util.Destroyable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

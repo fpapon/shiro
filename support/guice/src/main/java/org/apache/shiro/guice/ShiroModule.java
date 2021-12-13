@@ -32,6 +32,8 @@ import com.google.inject.matcher.Matchers;
 import com.google.inject.spi.InjectionListener;
 import com.google.inject.spi.TypeEncounter;
 import com.google.inject.spi.TypeListener;
+import org.apache.shiro.api.lang.util.ClassUtils;
+import org.apache.shiro.api.lang.util.Destroyable;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.env.Environment;
 import org.apache.shiro.event.EventBus;
@@ -43,8 +45,6 @@ import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.session.mgt.DefaultSessionManager;
 import org.apache.shiro.session.mgt.SessionManager;
-import org.apache.shiro.lang.util.ClassUtils;
-import org.apache.shiro.lang.util.Destroyable;
 
 import com.google.inject.Key;
 import com.google.inject.PrivateModule;
@@ -182,7 +182,7 @@ public abstract class ShiroModule extends PrivateModule implements Destroyable {
     }
 
     /**
-     * Destroys all beans created within this module that implement {@link org.apache.shiro.lang.util.Destroyable}.  Should be called when this
+     * Destroys all beans created within this module that implement {@link org.apache.shiro.api.lang.util.Destroyable}.  Should be called when this
      * module will no longer be used.
      *
      * @throws Exception

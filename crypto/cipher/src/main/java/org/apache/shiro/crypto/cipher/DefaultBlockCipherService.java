@@ -18,7 +18,7 @@
  */
 package org.apache.shiro.crypto.cipher;
 
-import org.apache.shiro.lang.util.StringUtils;
+import org.apache.shiro.api.lang.util.StringUtils;
 
 /**
  * Base abstract class for block cipher algorithms.
