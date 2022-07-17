@@ -145,6 +145,7 @@
         <module>samples</module>
         <module>integration-tests</module>
         <module>test-coverage</module>
+        <module>bom</module>
     </modules>
 
     <mailingLists>
